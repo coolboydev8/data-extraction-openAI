@@ -1,6 +1,5 @@
 import os
 from pypdf2 import PdfReader
-# Assuming liteelm library is available (replace with actual implementation)
 from liteelm import completion
 
 def create_message(content, role="system"):
